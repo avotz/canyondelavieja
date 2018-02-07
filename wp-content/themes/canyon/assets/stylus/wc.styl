@@ -1,0 +1,96 @@
+.woocommerce-breadcrumb
+.product_meta
+    display none
+
+.woocommerce #content div.product .woocommerce-tabs, .woocommerce div.product .woocommerce-tabs, .woocommerce-page #content div.product .woocommerce-tabs, .woocommerce-page div.product .woocommerce-tabs
+    float: none;
+    width: 100%;
+
+@media screen and (min-width:768px)
+    .woocommerce #content div.product .woocommerce-tabs, .woocommerce div.product .woocommerce-tabs, .woocommerce-page #content div.product .woocommerce-tabs, .woocommerce-page div.product .woocommerce-tabs
+        float: right;
+        width: 48%;
+        clear: none;
+        padding-top: 1rem
+        padding-right: 3rem
+
+.woocommerce div.product
+    margin-top: 0
+    .product-header
+        padding: 2rem 2rem
+        color cafe
+    .product-inner
+        background-color: white
+.woocommerce div.product div.summary
+    clear: both;
+    float:none;
+
+.woocommerce div.product p.price, .woocommerce div.product span.price
+    font-size: 2rem
+    font-weight: 900
+    color celeste
+
+.woocommerce #respond input#submit.alt.disabled, .woocommerce #respond input#submit.alt.disabled:hover, .woocommerce #respond input#submit.alt:disabled, .woocommerce #respond input#submit.alt:disabled:hover, .woocommerce #respond input#submit.alt:disabled[disabled], .woocommerce #respond input#submit.alt:disabled[disabled]:hover, .woocommerce a.button.alt.disabled, .woocommerce a.button.alt.disabled:hover, .woocommerce a.button.alt:disabled, .woocommerce a.button.alt:disabled:hover, .woocommerce a.button.alt:disabled[disabled], .woocommerce a.button.alt:disabled[disabled]:hover, .woocommerce button.button.alt.disabled, .woocommerce button.button.alt.disabled:hover, .woocommerce button.button.alt:disabled, .woocommerce button.button.alt:disabled:hover, .woocommerce button.button.alt:disabled[disabled], .woocommerce button.button.alt:disabled[disabled]:hover, .woocommerce input.button.alt.disabled, .woocommerce input.button.alt.disabled:hover, .woocommerce input.button.alt:disabled, .woocommerce input.button.alt:disabled:hover, .woocommerce input.button.alt:disabled[disabled], .woocommerce input.button.alt:disabled[disabled]:hover,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt
+    background-color: naranja
+
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover
+    background-color: celeste
+
+.woocommerce div.product div.images .woocommerce-product-gallery__image:nth-child(n+2)
+    padding: .25rem;
+
+.post-type-archive-product
+.related
+    padding-left 1rem;
+    padding-right 1rem;
+    text-align: center;
+    h2 
+        margin-bottom: 1rem
+    .products
+        display flex
+        flex-wrap wrap
+        justify-content space-between
+        li 
+            margin: .5rem !important
+            .ajax_add_to_cart
+            .add_to_cart_button
+                display: none
+            .woocommerce-loop-product__title
+                position: absolute;
+                bottom: 5%;
+                left 0
+                right: 0
+                padding .1rem 1rem
+                text-align: center;
+                color: #f0f0f0;
+                background-color verde
+                text-transform uppercase
+                font-weight 900
+                font-size 1.2rem
+    .price 
+        display none !important
+
+.post-type-archive-product
+    text-align: left;
+    .woocommerce-products-header
+        padding: 2rem 0
+@media screen and (min-width:1000px)
+	.related
+		padding-left 1rem//15%
+		padding-right 1rem //15%
+
+.book_tab
+    background-color: naranja !important
+    &.active 
+        background-color: #ce8525 !important
+        &:before
+            box-shadow: 2px 2px 0 #ce8525 !important;
+        &:after
+            box-shadow: -2px 2px 0 #ce8525 !important;
+    &:after
+        box-shadow: -2px 2px 0 naranja !important;
+
+    a 
+        color:white !important
