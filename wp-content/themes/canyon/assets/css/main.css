@@ -1212,17 +1212,17 @@ iframe {
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  -webkit-box-pack: justify;
-  -moz-box-pack: justify;
-  -o-box-pack: justify;
-  -ms-flex-pack: justify;
-  -webkit-justify-content: space-between;
-  justify-content: space-between;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 .post-type-archive-product .products li,
 .related .products li {
   width: 100%;
-  margin: 0.5rem !important;
+  margin: 0.2rem !important;
 }
 .post-type-archive-product .products li .ajax_add_to_cart,
 .related .products li .ajax_add_to_cart,
