@@ -59,8 +59,12 @@ $item_gallery_medium = wp_get_attachment_image_src($post_thumbnail_id, 'item-gal
 		}
 
 		echo apply_filters( 'woocommerce_single_product_image_thumbnail_html', $html, get_post_thumbnail_id( $post->ID ) );
-
-		do_action( 'woocommerce_product_thumbnails' );
 		?>
+		<div class="carousel-gallery">
+			<?php
+			do_action('woocommerce_product_thumbnails');
+			?>
+		</div>
+		
 	</figure>
 </div>

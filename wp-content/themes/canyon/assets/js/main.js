@@ -2,15 +2,15 @@
 
 
    
-  /*$('.slider-home').slick({
+  $('.carousel-gallery').slick({
       infinite: true,
-      speed: 500,
-      fade: true,
+      slidesToShow: 3,
+      slidesToScroll: 3,
       autoplay: true,
       arrows:false,
-      dots:true,
+      dots:false,
       cssEase: 'linear'
-  });*/
+  });
     $('.map')
         .click(function () {
             $(this).find('iframe').addClass('clicked')
