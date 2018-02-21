@@ -1221,7 +1221,6 @@ iframe {
 }
 .post-type-archive-product .products li,
 .related .products li {
-  width: 100%;
   margin: 0.2rem !important;
 }
 .post-type-archive-product .products li .ajax_add_to_cart,
@@ -1253,18 +1252,6 @@ iframe {
 }
 .post-type-archive-product .woocommerce-products-header {
   padding: 2rem 0;
-}
-@media screen and (min-width: 520px) {
-  .post-type-archive-product .products li,
-  .related .products li {
-    width: 48%;
-  }
-}
-@media screen and (min-width: 768px) {
-  .post-type-archive-product .products li,
-  .related .products li {
-    width: 22%;
-  }
 }
 @media screen and (min-width: 1000px) {
   .related {
