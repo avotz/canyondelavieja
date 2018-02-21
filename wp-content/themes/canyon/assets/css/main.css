@@ -1281,16 +1281,16 @@ iframe {
 .product-siderbar-top .widget,
 .product-siderbar-top .heateor_sss_sharing_container {
   display: inline-block;
-  padding: 10px 0 0 0;
+  padding: 0 0 0 0;
   vertical-align: middle;
 }
 .product-siderbar-top .widget_ssba_widget,
 .product-siderbar-top .heateor_sss_sharing_container {
   padding-top: 10px;
 }
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 540px) {
   .product-siderbar-top {
-    position: absolute;
+    position: static;
     right: 0;
     top: 0;
     text-align: left;
@@ -1306,6 +1306,11 @@ iframe {
   }
   .product-siderbar-top #custom_html-2 {
     display: inline-block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .product-siderbar-top {
+    position: absolute;
   }
 }
 body {
