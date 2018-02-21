@@ -1283,7 +1283,8 @@ iframe {
   padding: 0 0.5rem;
   vertical-align: middle;
 }
-.product-siderbar-top .widget_ssba_widget {
+.product-siderbar-top .widget_ssba_widget,
+.product-siderbar-top .heateor_sss_sharing_container {
   padding-top: 30px;
 }
 body {
