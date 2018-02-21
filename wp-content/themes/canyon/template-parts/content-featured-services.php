@@ -109,7 +109,7 @@
 						<img src="<?php echo $thumb_url[0]; ?>">
 					</div>
 					<div class="tours-item-content services-item-content">
-						<h3 class="services-item-title"><?php the_title(); ?></h3>
+						<h3 class="services-item-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 						<!-- <div class="services-item-subtitle">loremp ipsum, loremp ipsum</div> -->
 							<?php the_excerpt(); ?>
 					</div>
@@ -199,7 +199,7 @@
 							<img src="<?php echo $thumb_url[0]; ?>">
 						</div>
 						<div class="packages-item-content services-item-content">
-							<h3 class="services-item-title"><?php the_title(); ?></h3>
+							<h3 class="services-item-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 							<!-- <div class="services-item-subtitle">loremp ipsum, loremp ipsum</div> -->
 							<?php the_excerpt(); ?>
 						</div>
