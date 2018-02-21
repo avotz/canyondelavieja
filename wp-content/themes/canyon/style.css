@@ -1277,6 +1277,10 @@ iframe {
   right: 0;
   top: 0;
 }
+.product-siderbar-top .widget {
+  display: inline-block;
+  padding: 0 0.5rem;
+}
 body {
   background-color: #e8e8e8;
 }
