@@ -4,8 +4,8 @@
    
   $('.carousel-gallery').slick({
       infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 3,
+      slidesToShow: 4,
+      slidesToScroll: 4,
       autoplay: true,
       arrows:false,
       dots:false,
