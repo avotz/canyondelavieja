@@ -1277,7 +1277,8 @@ iframe {
   right: 0;
   top: 0;
 }
-.product-siderbar-top .widget {
+.product-siderbar-top .widget,
+.product-siderbar-top .heateor_sss_sharing_container {
   display: inline-block;
   padding: 0 0.5rem;
   vertical-align: middle;
