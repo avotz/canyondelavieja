@@ -1468,7 +1468,7 @@ body {
 }
 #primary,
 .main {
-  margin-top: 3.5rem;
+  padding-top: 3.8rem;
 }
 .main-item {
   width: 100%;
@@ -1549,10 +1549,10 @@ body {
 }
 @media screen and (min-width: 768px) {
   #primary {
-    margin-top: 0;
+    padding-top: 0;
   }
   .main {
-    margin-top: 0;
+    padding-top: 0;
   }
   .main-item {
     width: 33%;
@@ -1611,6 +1611,15 @@ body {
   right: 0;
   height: 100%;
 }
+.services-item-details .top {
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #f6902f;
+  color: #fff;
+  display: block;
+  padding: 0 0.5rem;
+}
 .services-item-details .bottom {
   position: absolute;
   bottom: 30px;
@@ -1665,6 +1674,13 @@ body {
   .services-item-details {
     width: 340px;
     padding: 15px 30px 15px 0;
+  }
+  .services-item-details .top {
+    position: static;
+    background: transparent;
+    color: #000;
+    display: block;
+    padding: 0;
   }
   .services-item-details .price {
     font-size: 2rem;

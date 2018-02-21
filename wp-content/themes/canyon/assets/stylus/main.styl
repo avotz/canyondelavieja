@@ -107,7 +107,7 @@ body
 		height 90vh
 #primary
 .main
-	margin-top: 3.5rem;
+	padding-top: 3.8rem;
 .main
 	&-item
 		width 100%//33%
@@ -177,9 +177,9 @@ body
 
 @media screen and (min-width: 768px)
 	#primary
-		margin-top: 0
+		padding-top: 0
 	.main
-		margin-top: 0;
+		padding-top: 0;
 		&-item
 			width 33%
 			&.size-2
@@ -229,6 +229,14 @@ body
 			top: 0;
 			right: 0;
 			height: 100%;
+			.top
+				position: absolute;
+				left: 0;
+				top: 0;
+				background: naranja;
+				color: white;
+				display: block;
+				padding: 0 .5rem;
 			.bottom 
 				position: absolute;
 				bottom: 30px;
@@ -275,6 +283,12 @@ body
 			&-details
 				width: 340px;
 				padding: 15px 30px 15px 0;
+				.top 
+					position: static;
+					background: transparent;
+					color: #000;
+					display: block;
+					padding: 0;
 				.price
 					font-size 2rem
 .map 
