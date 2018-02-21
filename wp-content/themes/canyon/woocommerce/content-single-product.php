@@ -35,8 +35,8 @@ if ( post_password_required() ) {
 <div id="product-<?php the_ID(); ?>" <?php post_class(); ?>>
 
     <div class="product-header">
-		<?php get_sidebar('product-topright'); ?>
 		<?php woocommerce_get_template('single-product/title.php'); ?>
+		<?php get_sidebar('product-topright'); ?>
 	</div>
     <div class="product-inner">
 	<?php

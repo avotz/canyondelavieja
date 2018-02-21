@@ -1273,9 +1273,11 @@ iframe {
   color: #fff !important;
 }
 .product-siderbar-top {
-  position: absolute;
-  right: 0;
-  top: 0;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.product-siderbar-top #custom_html-2 {
+  display: none;
 }
 .product-siderbar-top .widget,
 .product-siderbar-top .heateor_sss_sharing_container {
@@ -1286,6 +1288,18 @@ iframe {
 .product-siderbar-top .widget_ssba_widget,
 .product-siderbar-top .heateor_sss_sharing_container {
   padding-top: 30px;
+}
+@media screen and (min-width: 620px) {
+  .product-siderbar-top {
+    position: absolute;
+    right: 0;
+    top: 0;
+    text-align: left;
+    margin-bottom: 0;
+  }
+  .product-siderbar-top #custom_html-2 {
+    display: inline-block;
+  }
 }
 body {
   background-color: #e8e8e8;
