@@ -15,13 +15,14 @@
         <div class="wrap">
             <div class="top">
               <div class="footer-box-container flex-container-sb">
-                <div class="footer-box-item">
+                <div class="footer-box-item navigate">
                   <div class="content">
-                    <span class="intro">loremp ipsum</span>
-                    <span class="title">loremp ipsum dolor si</span>
+                    <span class="intro">Location</span>
+                    <span class="title">Navigate to</span>
 
                   </div>
-                  <a href="#" class="btn success">Subscribe</a>
+                  <a href="waze://?ll=10.6796248, -85.4562437&navigate=yes" class="btn success" target="_blank">Waze</a>
+                  <a href="https://www.google.com/maps/place/Ca%C3%B1on+de+la+Vieja+Lodge/@10.6796248,-85.4562437,15z/data=!4m5!3m4!1s0x0:0x4e6f3a31a8e45943!8m2!3d10.6796248!4d-85.4562437?sa=X&ved=0ahUKEwjfob3wuLfZAhWyuVkKHeDTAGkQ_BIInQEwCg" class="btn success" target="_blank">Google Maps</a>
                 </div>
                 <div class="footer-box-item">
                   <div class="logos" align="center"><img src="<?php echo get_template_directory_uri(); ?>/img/CATURGUA.jpg" width="68" height="68"><img src="<?php echo get_template_directory_uri(); ?>/img/logocanatur.jpg" width="115"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-ict.jpg" width="61" height="89"><img src="<?php echo get_template_directory_uri(); ?>/img/sostenible.jpg" width="85" height="86"></div>

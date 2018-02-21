@@ -270,6 +270,13 @@ body
 				padding: 15px 30px 15px 0;
 				.price
 					font-size 2rem
+.map 
+	iframe
+		height 90vh
+		pointer-events: none;
+		position: relative;
+		&.clicked
+			pointer-events: auto;
 .footer
 	background-color #e1e1e1
 	padding 2rem 0
@@ -281,6 +288,10 @@ body
 		width: 100%;
 		min-width: 250px;
 		margin-bottom 1rem
+		&.navigate
+			.btn
+				position: static
+				display inline-block
 		.content 
 			display block
 			
