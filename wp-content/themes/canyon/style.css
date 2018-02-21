@@ -1280,6 +1280,10 @@ iframe {
 .product-siderbar-top .widget {
   display: inline-block;
   padding: 0 0.5rem;
+  vertical-align: middle;
+}
+.product-siderbar-top .widget_ssba_widget {
+  padding-top: 30px;
 }
 body {
   background-color: #e8e8e8;
