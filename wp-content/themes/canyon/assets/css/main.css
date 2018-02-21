@@ -1432,6 +1432,10 @@ body {
   align-items: center;
   height: 90vh;
 }
+#primary,
+.main {
+  margin-top: 3.5rem;
+}
 .main-item {
   width: 100%;
   position: relative;
@@ -1510,6 +1514,12 @@ body {
   display: none;
 }
 @media screen and (min-width: 768px) {
+  #primary {
+    margin-top: 0;
+  }
+  .main {
+    margin-top: 0;
+  }
   .main-item {
     width: 33%;
   }
