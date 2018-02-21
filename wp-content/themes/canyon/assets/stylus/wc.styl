@@ -14,6 +14,12 @@
         padding-top: 1rem
         padding-right: 3rem
 
+.woocommerce div.product .woocommerce-tabs .panel
+    padding: 0 1rem
+@media screen and (min-width:768px)
+    .woocommerce div.product .woocommerce-tabs .panel
+        padding: 0
+
 .woocommerce div.product
     margin-top: 0
     .product-header
@@ -58,6 +64,7 @@
         flex-wrap wrap
         justify-content space-between
         li 
+            width: 100% !important
             margin: .5rem !important
             .ajax_add_to_cart
             .add_to_cart_button
@@ -81,6 +88,14 @@
     text-align: left;
     .woocommerce-products-header
         padding: 2rem 0
+
+@media screen and (min-width:520px)
+    .post-type-archive-product
+    .related
+        .products
+            li 
+                width: 48% !important
+
 @media screen and (min-width:1000px)
 	.related
 		padding-left 1rem//15%
