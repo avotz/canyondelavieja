@@ -37,8 +37,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</p>
 
 		<?php else : ?>
-
-			<p class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received"><?php echo apply_filters( 'woocommerce_thankyou_order_received_text', __( 'Thank you. Your order has been received.', 'woocommerce' ), $order ); ?></p>
+            <?php if (get_locale() == "es_CR") : ?>
+               <p class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received"><?php echo apply_filters('woocommerce_thankyou_order_received_text', __('Gracias. Tu orden ha sido recibida.', 'woocommerce'), $order); ?></p>
+            <?php else : ?>
+                <p class="woocommerce-notice woocommerce-notice--success woocommerce-thankyou-order-received"><?php echo apply_filters('woocommerce_thankyou_order_received_text', __('Thank you. Your order has been received.', 'woocommerce'), $order); ?></p>
+            <?php endif; ?>
+			
 
 			<ul class="woocommerce-order-overview woocommerce-thankyou-order-details order_details">
 
