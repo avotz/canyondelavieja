@@ -1318,6 +1318,10 @@ iframe {
     position: absolute;
   }
 }
+.woocommerce .cart-collaterals .cart_totals > h2,
+.woocommerce-page .cart-collaterals .cart_totals > h2 {
+  display: none;
+}
 body {
   background-color: #e8e8e8;
 }
