@@ -13,7 +13,8 @@
  * @package canyon
  */
 if (get_locale() == "es_CR") {
-    $url_rooms = "/habitaciones";
+    $url_rooms = pll__('Url Rooms');
+    var_dump($url_rooms);
     $url_activities = "/habitaciones";
     $url_packages = "/habitaciones";
 
