@@ -12,18 +12,7 @@
  * Template Name: Page Home 
  * @package canyon
  */
-if (get_locale() == "es_CR") {
-    $url_rooms = pll_e('Url Rooms');
-    var_dump($url_rooms);
-    $url_activities = "/habitaciones";
-    $url_packages = "/habitaciones";
 
-} else {
-    $categorySelected = "packages";
-
-}
-pll_e('/rooms');
-pll_e('Rooms');
 get_header(); ?>
 
 	<section class="banner">
@@ -54,7 +43,7 @@ get_header(); ?>
                           <span class="main-item-title"><?php pll_e('Activities'); ?></span>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                           tempor incididunt ut labore et dolore magna aliqua. </p>
-                           <a href="<?php echo esc_url(home_url(pll__('Url Activities'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
+                           <a href="<?php echo esc_url(home_url(pll__('/activities'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
                         </div>
                         <!-- <a href="#" class="main-item-link"></a> -->
                     </div>
@@ -64,7 +53,7 @@ get_header(); ?>
                           <span class="main-item-title"><?php pll_e('Packages'); ?></span>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                           tempor incididunt ut labore et dolore magna aliqua. </p>
-                          <a href="<?php echo esc_url(home_url(pll__('Url Packages'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
+                          <a href="<?php echo esc_url(home_url(pll__('/packages'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
                         </div>
                         <!-- <a href="#" class="main-item-link"></a> -->
                     </div>

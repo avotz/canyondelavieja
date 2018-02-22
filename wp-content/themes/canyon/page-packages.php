@@ -12,13 +12,10 @@
  * Template Name: Page Packages 
  * @package canyon
  */
- if(get_locale() == "es_CR"){
-    $categorySelected = "packages-es";
+
+$categorySelected = pll__('packages');
    
- } else {
-    $categorySelected = "packages";
-    
-} 
+
 get_header(); ?>
 
 	<section class="main">

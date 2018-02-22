@@ -12,13 +12,9 @@
  * Template Name: Page Rooms 
  * @package canyon
  */
-if (get_locale() == "es_CR") {
-    $categorySelected = "rooms-es";
 
-} else {
-    $categorySelected = "rooms";
+$categorySelected = pll__('rooms');
 
-} 
 get_header(); ?>
 
 	<section class="main">

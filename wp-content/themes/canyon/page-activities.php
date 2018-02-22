@@ -12,13 +12,7 @@
  * Template Name: Page Activities 
  * @package canyon
  */
- if(get_locale() == "es_CR"){
-    $categorySelected = "activities-es";
-   
- } else {
-    $categorySelected = "activities";
-    
-} 
+$categorySelected = pll__('activities');
                                               
 get_header(); ?>
 
