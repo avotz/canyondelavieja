@@ -35,7 +35,7 @@
 						array(
 							'taxonomy' => 'product_cat',
 							'field' => 'slug',
-							'terms' => pll__('Slug Rooms')
+							'terms' => pll__('rooms')
 						)
 					)
 
@@ -123,7 +123,7 @@
 							array(
 								'taxonomy' => 'product_cat',
 								'field' => 'slug',
-								'terms' => pll__('Slug Activities')
+								'terms' => pll__('activities')
 							)
 						)
 
@@ -213,7 +213,7 @@
 				array(
 					'taxonomy' => 'product_cat',
 					'field' => 'slug',
-					'terms' => pll__('Slug Packages')
+					'terms' => pll__('packages')
 				)
 			)
 
