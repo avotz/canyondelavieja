@@ -29,6 +29,7 @@ if (function_exists('pll_register_string')) {
     pll_register_string('Billing details', 'Billing details', 'ALO');
     pll_register_string('Your order', 'Your order', 'ALO');
     pll_register_string('Place order', 'Place order', 'ALO');
+    pll_register_string('Additional information', 'Additional information', 'ALO');  
     pll_register_string('Proceed to checkout', 'Proceed to checkout', 'ALO');
     
     
