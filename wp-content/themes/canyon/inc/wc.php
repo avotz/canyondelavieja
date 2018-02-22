@@ -103,3 +103,12 @@ function custom_override_checkout_fields($fields)
     return $fields;
 }
 
+add_filter('woocommerce_order_button_text', 'custom_order_button_text', 1);
+function custom_order_button_text($order_button_text)
+{
+    
+    $order_button_text = function_exists('pll__') ? pll__('Place order') : 'Place order';
+
+    return $order_button_text;
+}
+?>
