@@ -12,7 +12,14 @@
  * Template Name: Page Activities 
  * @package canyon
  */
-
+ if(get_locale() == "es_CR"){
+    $categorySelected = "activities-es";
+    $readmore = "Leer más";
+ } else {
+    $categorySelected = "activities";
+    $readmore = "Read more";
+} 
+                                              
 get_header(); ?>
 
 	<section class="main">
@@ -34,7 +41,7 @@ get_header(); ?>
                             array(
                                 'taxonomy' => 'product_cat',
                                 'field' => 'slug',
-                                'terms' => 'activities'
+                                'terms' => $categorySelected
                             )
                         )
 
@@ -90,7 +97,7 @@ get_header(); ?>
                                     </div>
                                 </div>
                                 <div class="bottom">
-                                <a href="<?php the_permalink(); ?>" class="btn success">Read more</a>
+                                <a href="<?php the_permalink(); ?>" class="btn success"><?php _e('Read more', 'canyon');?></a>
                                 </div>
                             </div>
                         </article>
