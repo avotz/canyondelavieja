@@ -22,7 +22,7 @@ if (get_locale() == "es_CR") {
     $categorySelected = "packages";
 
 }
-pll_e('Url Rooms');
+pll_e('/rooms');
 pll_e('Rooms');
 get_header(); ?>
 
@@ -44,7 +44,7 @@ get_header(); ?>
                           <span class="main-item-title"><?php pll_e('Rooms'); ?></span>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                           tempor incididunt ut labore et dolore magna aliqua. </p>
-                           <a href="<?php echo esc_url(home_url(pll__('Url Rooms'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
+                           <a href="<?php echo esc_url(home_url(pll__('/rooms'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
                         </div>
                         <!-- <a href="#" class="main-item-link"></a> -->
                     </div>
