@@ -12,14 +12,20 @@
  * Template Name: Page Packages 
  * @package canyon
  */
-
+ if(get_locale() == "es_CR"){
+    $categorySelected = "packages-es";
+   
+ } else {
+    $categorySelected = "packages";
+    
+} 
 get_header(); ?>
 
 	<section class="main">
 		
 			 <div class="tours">
                   <div class="services-header">
-                    <h2 class="tours-title services-title">Packages</h2>
+                    <h2 class="tours-title services-title"><?php the_title(); ?></h2>
                    
                   </div>
                   <?php
@@ -34,7 +40,7 @@ get_header(); ?>
                             array(
                                 'taxonomy' => 'product_cat',
                                 'field' => 'slug',
-                                'terms' => 'packages'
+                                'terms' => $categorySelected
                             )
                         )
 
@@ -90,7 +96,7 @@ get_header(); ?>
                                     </div>
                                 </div>
                                 <div class="bottom">
-                                <a href="<?php the_permalink(); ?>" class="btn success">Read more</a>
+                                <a href="<?php the_permalink(); ?>" class="btn success"><?php pll_e('Read more'); ?></a>
                                 </div>
                             </div>
                         </article>

@@ -173,3 +173,10 @@ require get_template_directory() . '/inc/cpt.php';
 require get_template_directory() . '/inc/wc.php';
 
 pll_register_string('Read more', 'Read more','ALO');
+pll_register_string('Url Rooms', '/rooms', 'ALO');
+pll_register_string('Url Activities', '/rooms', 'ALO');
+pll_register_string('Url Packages', '/rooms', 'ALO');
+pll_register_string('View more', 'View more', 'ALO');
+pll_register_string('Rooms', 'Rooms', 'ALO');
+pll_register_string('Activities', 'Activities', 'ALO');
+pll_register_string('Packages', 'Packages', 'ALO');

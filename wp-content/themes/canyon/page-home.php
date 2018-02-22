@@ -12,7 +12,15 @@
  * Template Name: Page Home 
  * @package canyon
  */
+if (get_locale() == "es_CR") {
+    $url_rooms = "/habitaciones";
+    $url_activities = "/habitaciones";
+    $url_packages = "/habitaciones";
 
+} else {
+    $categorySelected = "packages";
+
+} 
 get_header(); ?>
 
 	<section class="banner">
@@ -30,30 +38,30 @@ get_header(); ?>
                     <div class="main-item size-2">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/rooms.jpg">
                         <div class="main-item-info">
-                          <span class="main-item-title">Rooms</span>
+                          <span class="main-item-title"><?php pll_e('Rooms'); ?></span>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                           tempor incididunt ut labore et dolore magna aliqua. </p>
-                           <a href="<?php echo esc_url(home_url('/rooms')); ?>" class="main-item-button">view more</a>
+                           <a href="<?php echo esc_url(home_url(pll__('Url Rooms'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
                         </div>
                         <!-- <a href="#" class="main-item-link"></a> -->
                     </div>
                      <div class="main-item highlight">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/activities.jpg">
                          <div class="main-item-info">
-                          <span class="main-item-title">Activities</span>
+                          <span class="main-item-title"><?php pll_e('Activities'); ?></span>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                           tempor incididunt ut labore et dolore magna aliqua. </p>
-                           <a href="<?php echo esc_url(home_url('/activities')); ?>" class="main-item-button">view more</a>
+                           <a href="<?php echo esc_url(home_url(pll__('Url Activities'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
                         </div>
                         <!-- <a href="#" class="main-item-link"></a> -->
                     </div>
                     <div class="main-item">
                         <img src="<?php echo get_template_directory_uri(); ?>/img/packages.jpg">
                          <div class="main-item-info">
-                          <span class="main-item-title">Packages</span>
+                          <span class="main-item-title"><?php pll_e('Packages'); ?></span>
                           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                           tempor incididunt ut labore et dolore magna aliqua. </p>
-                          <a href="<?php echo esc_url(home_url('/packages')); ?>" class="main-item-button">view more</a>
+                          <a href="<?php echo esc_url(home_url(pll__('Url Packages'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
                         </div>
                         <!-- <a href="#" class="main-item-link"></a> -->
                     </div>

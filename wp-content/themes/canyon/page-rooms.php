@@ -12,14 +12,20 @@
  * Template Name: Page Rooms 
  * @package canyon
  */
+if (get_locale() == "es_CR") {
+    $categorySelected = "rooms-es";
 
+} else {
+    $categorySelected = "rooms";
+
+} 
 get_header(); ?>
 
 	<section class="main">
 		
 			 <div class="tours">
                   <div class="services-header">
-                    <h2 class="tours-title services-title">Rooms</h2>
+                    <h2 class="tours-title services-title"><?php the_title(); ?></h2>
                    
                   </div>
                   <?php
@@ -34,7 +40,7 @@ get_header(); ?>
                             array(
                                 'taxonomy' => 'product_cat',
                                 'field' => 'slug',
-                                'terms' => 'rooms'
+                                'terms' => $categorySelected
                             )
                         )
 
@@ -90,7 +96,7 @@ get_header(); ?>
                                     </div>
                                 </div>
                                 <div class="bottom">
-                                <a href="<?php the_permalink(); ?>" class="btn success">Read more</a>
+                                <a href="<?php the_permalink(); ?>" class="btn success"><?php pll_e('Read more'); ?></a>
                                 </div>
                             </div>
                         </article>
