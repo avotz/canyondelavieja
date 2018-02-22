@@ -21,7 +21,9 @@ if (get_locale() == "es_CR") {
 } else {
     $categorySelected = "packages";
 
-} 
+}
+pll_e('Url Rooms');
+pll_e('Rooms');
 get_header(); ?>
 
 	<section class="banner">
