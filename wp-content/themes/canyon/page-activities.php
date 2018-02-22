@@ -97,7 +97,7 @@ get_header(); ?>
                                     </div>
                                 </div>
                                 <div class="bottom">
-                                <a href="<?php the_permalink(); ?>" class="btn success"><?php _e('Read more', 'canyon');?></a>
+                                <a href="<?php the_permalink(); ?>" class="btn success"><?php pll_e('Read more'); ?></a>
                                 </div>
                             </div>
                         </article>
