@@ -24,7 +24,7 @@ Thumbs.db
 .idea
 canyondelavieja.sublime-project
 canyondelavieja.sublime-workspace
-wp-content/plugins/woocommerce/*
+wp-content/plugins/*
 wp-content/plugins/polylang/*
 wp-content/plugins/woo-poly-integration/*
 wp-content/languages/*
