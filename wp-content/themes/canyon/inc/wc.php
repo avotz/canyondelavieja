@@ -45,13 +45,23 @@ function woo_remove_product_tabs($tabs)
 
 }
 
+add_filter('woocommerce_product_tabs', 'woo_rename_tabs', 98);
+function woo_rename_tabs($tabs)
+{
+
+    $tabs['description']['title'] = function_exists('pll__') ? pll__('Description') : __('Description');		// Rename the description tab
+   
+    return $tabs;
+
+}
+
 add_filter('woocommerce_product_tabs', 'woo_book_tab');
 function woo_book_tab($tabs)
 {
   
   // Adds the new tab
    
-        $nameTab = __('Book Now', 'woocommerce');
+        $nameTab = function_exists('pll__') ? pll__('Book Now') : 'Book Now';
     
     $tabs['book'] = array(
         'title' => $nameTab,
