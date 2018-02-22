@@ -14,10 +14,10 @@
  */
  if(get_locale() == "es_CR"){
     $categorySelected = "activities-es";
-    $readmore = "Leer más";
+   
  } else {
     $categorySelected = "activities";
-    $readmore = "Read more";
+    
 } 
                                               
 get_header(); ?>
@@ -26,7 +26,7 @@ get_header(); ?>
 		
 			 <div class="tours">
                   <div class="services-header">
-                    <h2 class="tours-title services-title">Activities</h2>
+                    <h2 class="tours-title services-title"><?php the_title(); ?></h2>
                    
                   </div>
                   <?php
