@@ -137,4 +137,16 @@ function wc_add_to_cart_message_filter($message, $product_id = null)
     return $message;
 }
 
+add_filter('the_title', 'woo_title_order_received', 10, 2);
+function woo_title_order_received($title, $id)
+{
+    if (function_exists('is_order_received_page') &&
+        is_order_received_page() && get_the_ID() === $id) {
+        if (get_locale() == "es_CR") {
+            $title = "Orden Recibida";
+        }
+    }
+    return $title;
+}
+
 
