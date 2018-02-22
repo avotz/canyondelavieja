@@ -32,7 +32,7 @@ do_action( 'woocommerce_before_cart' ); ?>
 			<tr>
 				<th class="product-remove">&nbsp;</th>
 				<th class="product-thumbnail">&nbsp;</th>
-				<th class="product-name"><?php function_exists('pll_e') ? pll_e('Product') : esc_html_e( 'Product', 'woocommerce' ); ?></th>
+				<th class="product-name"><?php pll_e('Product') ?: esc_html_e( 'Product', 'woocommerce' ); ?></th>
 				<th class="product-price"><?php function_exists('pll_e') ? pll_e('Price') :esc_html_e( 'Price', 'woocommerce' ); ?></th>
 				<th class="product-quantity"><?php function_exists('pll_e') ? pll_e('Quantity') : esc_html_e( 'Quantity', 'woocommerce' ); ?></th>
 				<th class="product-subtotal"><?php esc_html_e( 'Total', 'woocommerce' ); ?></th>
