@@ -42,7 +42,7 @@ if ( $show_downloads ) {
 
 		<thead>
 			<tr>
-				<th class="woocommerce-table__product-name product-name"><?php _e( 'Product', 'woocommerce' ); ?></th>
+				<th class="woocommerce-table__product-name product-name"><?php function_exists('pll_e') ? pll_e('Product') : _e( 'Product', 'woocommerce' ); ?></th>
 				<th class="woocommerce-table__product-table product-total"><?php _e( 'Total', 'woocommerce' ); ?></th>
 			</tr>
 		</thead>
@@ -81,7 +81,7 @@ if ( $show_downloads ) {
 			?>
 			<?php if ( $order->get_customer_note() ) : ?>
 				<tr>
-					<th><?php _e( 'Note:', 'woocommerce' ); ?></th>
+					<th><?php function_exists('pll_e') ? pll_e('Note:') : _e( 'Note:', 'woocommerce' ); ?></th>
 					<td><?php echo wptexturize( $order->get_customer_note() ); ?></td>
 				</tr>
 			<?php endif; ?>

@@ -34,7 +34,10 @@ if (function_exists('pll_register_string')) {
     pll_register_string('Checkout', 'Checkout', 'ALO');
     pll_register_string('View Cart', 'View Cart', 'ALO');
     pll_register_string('Order details', 'Order details', 'ALO');
-   
+    pll_register_string('Note:', 'Note:', 'ALO');
+    pll_register_string('Billing address', 'Billing address', 'ALO');
+    
+    
     pll_register_string('Proceed to checkout', 'Proceed to checkout', 'ALO');
     
     
