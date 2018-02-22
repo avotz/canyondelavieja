@@ -24,6 +24,7 @@ if (function_exists('pll_register_string')) {
     pll_register_string('Product', 'Product', 'ALO');
     pll_register_string('Price', 'Price', 'ALO');
     pll_register_string('Quantity', 'Quantity', 'ALO');
+    pll_register_string('Apply coupon', 'Apply coupon', 'ALO');
     pll_register_string('Proceed to checkout', 'Proceed to checkout', 'ALO');
     
     
