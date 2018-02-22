@@ -24,7 +24,7 @@
 		<div class="rooms">
 			<div class="services-header">
 			<h2 class="rooms-title services-title"><?php pll_e('Rooms'); ?></h2>
-			<a href="<?php echo esc_url(home_url(pll__('Url Rooms'))); ?>"><?php pll_e('View more'); ?></a>
+			<a href="<?php echo esc_url(home_url(pll_e('Url Rooms'))); ?>"><?php pll_e('View more'); ?></a>
 			</div>
 			<?php
 				$args = array(
@@ -112,7 +112,7 @@
 		<div class="tours">
 			<div class="services-header">
 			<h2 class="tours-title services-title"><?php pll_e('Featured activities'); ?></h2>
-			<a href="<?php echo esc_url(home_url(pll__('Url Activities'))); ?>"><?php pll_e('View more'); ?></a>
+			<a href="<?php echo esc_url(home_url(pll_e('Url Activities'))); ?>"><?php pll_e('View more'); ?></a>
 			</div>
 			<?php
 					$args = array(
@@ -201,7 +201,7 @@
 		<div class="packages">
 			<div class="services-header">
 			<h2 class="packages-title services-title"><?php pll_e('Featured packages'); ?></h2>
-			<a href="<?php echo esc_url(home_url(pll__('Url Packages'))); ?>"><?php pll_e('View more'); ?></a>
+			<a href="<?php echo esc_url(home_url(pll_e('Url Packages'))); ?>"><?php pll_e('View more'); ?></a>
 			</div>
 
 			<?php
