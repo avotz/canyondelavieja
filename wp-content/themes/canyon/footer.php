@@ -17,8 +17,8 @@
               <div class="footer-box-container flex-container-sb">
                 <div class="footer-box-item navigate">
                   <div class="content">
-                    <span class="intro">Location</span>
-                    <span class="title">Navigate to</span>
+                    <span class="intro"><?php pll_e('Location'); ?></span>
+                    <span class="title"><?php pll_e('Navigate to'); ?></span>
 
                   </div>
                   <a href="waze://?ll=10.6796248, -85.4562437&navigate=yes" class="btn success" target="_blank">Waze</a>
