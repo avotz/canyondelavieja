@@ -180,3 +180,7 @@ pll_register_string('View more', 'View more', 'ALO');
 pll_register_string('Rooms', 'Rooms', 'ALO');
 pll_register_string('Activities', 'Activities', 'ALO');
 pll_register_string('Packages', 'Packages', 'ALO');
+pll_register_string('Featured Packages', 'Featured packages', 'ALO');
+pll_register_string('Featured Activities', 'Featured activities', 'ALO');
+pll_register_string('Location', 'Location', 'ALO');
+pll_register_string('Navigate to', 'Navigate to', 'ALO');
