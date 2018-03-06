@@ -36,7 +36,7 @@
 					));
 					?>
                 <div class="header-lang">
-                    <a href="<?php echo esc_url(home_url('/')); ?>">EN</a> |
+                    <a href="<?php echo esc_url(home_url('/home')); ?>">EN</a> |
                     <a href="<?php echo esc_url(home_url('/es/inicio')); ?>">ES</a>
                 </div>
                 <div class="header-social">
