@@ -35,6 +35,10 @@
 						'menu_class' => 'header-menu-ul',
 					));
 					?>
+                <div class="header-lang">
+                    <a href="<?php echo esc_url(home_url('/')); ?>">EN</a> |
+                    <a href="<?php echo esc_url(home_url('/es')); ?>">ES</a>
+                </div>
                 <div class="header-social">
                     <a href="#"><i class="fa fa-facebook"></i></a>
                     <a href="#"><i class="fa fa-twitter"></i></a>

@@ -1365,6 +1365,11 @@ body {
   font-size: 1.5rem;
   color: #f6902f;
 }
+.header-lang {
+  position: absolute;
+  right: 12.5rem;
+  top: 16px;
+}
 .header-btn-menu {
   display: block;
   position: absolute;
@@ -1376,7 +1381,7 @@ body {
   font-size: 2rem;
   outline: 0;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
   .header {
     position: relative;
     display: inline-block;
@@ -1433,6 +1438,9 @@ body {
   }
   .header-social {
     right: 20px;
+  }
+  .header-lang {
+    right: 10rem;
   }
 }
 .banner {
