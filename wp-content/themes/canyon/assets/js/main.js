@@ -11,6 +11,14 @@
       dots:false,
       cssEase: 'linear'
   });
+    $('.page-gallery').slick({
+        infinite: true,
+        slidesToShow: 1,
+        autoplay: true,
+        arrows: false,
+        dots: false,
+        cssEase: 'linear'
+    });
     $('.map')
         .click(function () {
             $(this).find('iframe').addClass('clicked')

@@ -17,6 +17,40 @@
 	<?php canyon_post_thumbnail(); ?>
 
 	<div class="entry-content">
+		
+			<?php $images = rwmb_meta('rw_gallery', 'type=image&size=item-gallery-medium');
+			
+			if ($images) : ?>
+				
+					 <div id="slider-gallery" class="gallery slider-gallery page-gallery">
+				
+						<?php foreach ($images as $image) { ?>
+
+							<div class="item" style="background-image: url('<?php echo $image['url'] ?>');"></div>
+							
+						<?php 
+																				} ?>
+					</div>
+			<?php else : ?>
+
+				<?php if (has_post_thumbnail()) : 
+			
+							$id = get_post_thumbnail_id($post->ID);
+						$thumb_url = wp_get_attachment_image_src($id, 'item-gallery', true);
+						?>
+						 <div id="slider-gallery" class="gallery slider-gallery page-gallery">
+								<div class="item" style="background-image: url('<?php echo $thumb_url[0] ?>');">
+									
+								</div>
+						
+						</div>
+						
+				<?php endif; ?>
+
+					
+						
+				<?php endif; ?>
+		
 		<?php
 			the_content();
 

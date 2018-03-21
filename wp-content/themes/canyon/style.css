@@ -1800,6 +1800,34 @@ body {
 #CDSRATINGWIDGET714 {
   border: none !important;
 }
+.post-58 .gallery,
+.post-243 .gallery,
+.post-11 .gallery,
+.post-58 iframe,
+.post-243 iframe,
+.post-11 iframe {
+  margin-bottom: 1rem;
+}
+@media screen and (min-width: 960px) {
+  .post-58 .gallery,
+  .post-243 .gallery,
+  .post-11 .gallery,
+  .post-58 iframe,
+  .post-243 iframe,
+  .post-11 iframe {
+    float: right;
+    height: 380px;
+    width: 560px;
+    margin-left: 1rem;
+  }
+}
+.page-gallery .item {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+}
 
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
