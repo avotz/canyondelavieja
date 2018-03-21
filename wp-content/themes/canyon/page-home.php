@@ -31,7 +31,7 @@ get_header(); ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/rooms.jpg">
                         <div class="main-item-info">
                           <span class="main-item-title"><?php pll_e('Rooms'); ?></span>
-                          <p>Enclosed in exuberant tropical forest, each of the 50 rooms provides an exclusive refuge where guests can relax amid the tranquility and sounds of nature. </p>
+                          <p><?php pll_e('Excerpt rooms'); ?></p>
                            <a href="<?php echo esc_url(home_url(pll__('/rooms'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
                         </div>
                         <!-- <a href="#" class="main-item-link"></a> -->
@@ -40,7 +40,7 @@ get_header(); ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/activities.jpg">
                          <div class="main-item-info">
                           <span class="main-item-title"><?php pll_e('Activities'); ?></span>
-                          <p>Wide variety of adventure tours that you can enjoy and live memorable experiences near the canyon of the Colorado River. </p>
+                          <p><?php pll_e('Excerpt activities'); ?></p>
                            <a href="<?php echo esc_url(home_url(pll__('/activities'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
                         </div>
                         <!-- <a href="#" class="main-item-link"></a> -->
@@ -49,7 +49,7 @@ get_header(); ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/img/packages.jpg">
                          <div class="main-item-info">
                           <span class="main-item-title"><?php pll_e('Packages'); ?></span>
-                          <p>Prices and special amenities in the activities to be chosen by packages. </p>
+                          <p><?php pll_e('Excerpt packages'); ?></p>
                           <a href="<?php echo esc_url(home_url(pll__('/packages'))); ?>" class="main-item-button"><?php pll_e('View more'); ?></a>
                         </div>
                         <!-- <a href="#" class="main-item-link"></a> -->

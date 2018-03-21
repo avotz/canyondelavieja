@@ -17,6 +17,14 @@ if (function_exists('pll_register_string')) {
     pll_register_string('Featured Activities', 'Featured activities', 'ALO');
     pll_register_string('Location', 'Location', 'ALO');
     pll_register_string('Navigate to', 'Navigate to', 'ALO');
+    pll_register_string('Terms', 'Terms & conditions', 'ALO');
+    pll_register_string('Url Terms', '/lodging-reservation-and-cancellation-policites-canyon-de-la-vieja-lodge', 'ALO');
+    pll_register_string('Excerpt_rooms', 'Excerpt rooms', 'ALO');
+    pll_register_string('Excerpt_activities', 'Excerpt activities', 'ALO');
+    pll_register_string('Excerpt_packages', 'Excerpt packages', 'ALO');
+
+
+     
     /** woocommerce */
     pll_register_string('Book Now', 'Book Now', 'ALO');
     pll_register_string('Description', 'Description', 'ALO');
