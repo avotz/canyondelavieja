@@ -25,7 +25,10 @@
                   <a href="https://www.google.com/maps/place/Ca%C3%B1on+de+la+Vieja+Lodge/@10.6796248,-85.4562437,15z/data=!4m5!3m4!1s0x0:0x4e6f3a31a8e45943!8m2!3d10.6796248!4d-85.4562437?sa=X&ved=0ahUKEwjfob3wuLfZAhWyuVkKHeDTAGkQ_BIInQEwCg" class="btn success" target="_blank">Google Maps</a>
                 </div>
                 <div class="footer-box-item">
-                  <div class="logos" align="center"><img src="<?php echo get_template_directory_uri(); ?>/img/CATURGUA.jpg" width="68" height="68"><img src="<?php echo get_template_directory_uri(); ?>/img/logocanatur.jpg" width="115"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-ict.jpg" width="61" height="89"><img src="<?php echo get_template_directory_uri(); ?>/img/sostenible.jpg" width="85" height="86"></div>
+                  <div class="logos" align="center"><img src="<?php echo get_template_directory_uri(); ?>/img/CATURGUA.jpg" width="68" height="68"><img src="<?php echo get_template_directory_uri(); ?>/img/logocanatur.jpg" width="115"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-ict.jpg" width="61" height="89"><img src="<?php echo get_template_directory_uri(); ?>/img/sostenible.jpg" width="85" height="86">
+                  <img src="<?php echo get_template_directory_uri(); ?>/img/codigo-conducta.png" width="85" height="86">
+                  </div>
+                 
                 </div>
                 <div class="footer-box-item">
                   <div class="content">
