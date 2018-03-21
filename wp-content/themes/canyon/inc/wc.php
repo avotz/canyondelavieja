@@ -97,7 +97,12 @@ function custom_override_checkout_fields($fields)
     unset($fields['billing']['billing_company']);
 
     $fields['order']['order_comments']['placeholder'] = 'e.g. child seats, Pick up';
-    $fields['order']['order_comments']['label'] = 'Important Notes';
+    $fields['order']['order_comments']['label'] = function_exists('pll__') ? pll__('Important Notes') : 'Important Notes';
+
+    $fields['billing']['billing_first_name']['label'] = function_exists('pll__') ? pll__('First name') : 'First name';
+    $fields['billing']['billing_last_name']['label'] = function_exists('pll__') ? pll__('Last name') : 'Last name';
+    $fields['billing']['billing_phone']['label'] = function_exists('pll__') ? pll__('Phone') : 'Phone';
+    $fields['billing']['billing_email']['label'] = function_exists('pll__') ? pll__('Email') : 'Email';
 
 
     return $fields;

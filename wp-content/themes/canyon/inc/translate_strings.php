@@ -45,6 +45,12 @@ if (function_exists('pll_register_string')) {
     pll_register_string('Note:', 'Note:', 'ALO');
     pll_register_string('Billing address', 'Billing address', 'ALO');
     pll_register_string('Order again', 'Order again', 'ALO');
+    pll_register_string('First name', 'First name', 'ALO');
+    pll_register_string('Last name', 'Last name', 'ALO');
+    pll_register_string('Phone', 'Phone', 'ALO');
+    pll_register_string('Email', 'Email', 'ALO');
+    pll_register_string('Email', 'Email', 'ALO');
+    pll_register_string('Important Notes', 'Important Notes', 'ALO');
     
     pll_register_string('Proceed to checkout', 'Proceed to checkout', 'ALO');
     
