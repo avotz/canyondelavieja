@@ -60,8 +60,12 @@ function woo_book_tab($tabs)
 {
   
   // Adds the new tab
-   
+    if (is_product() && (has_term('Service', 'product_cat') || has_term('Servicio', 'product_cat')) ) {
         $nameTab = function_exists('pll__') ? pll__('Book Now') : 'Book Now';
+    } else {
+        $nameTab = function_exists('pll__') ? pll__('Book Now') : 'Book Now';
+    }
+    
     
     $tabs['book'] = array(
         'title' => $nameTab,
@@ -78,7 +82,13 @@ function woo_book_tab_content()
   //echo '<h2>New Product Tab</h2>';
   //echo '<p>Here\'s your new product tab.</p>';
     //woocommerce_get_template('single-product/price.php');
-    do_action('woocommerce_single_product_summary');
+    if (is_product() && (has_term('Service', 'product_cat') || has_term('Servicio', 'product_cat'))) {
+        echo do_shortcode('[contact-form-7 id="22" title="Contact form"]');
+            
+    }else{
+        
+        do_action('woocommerce_single_product_summary');
+    }
 
 }
 
