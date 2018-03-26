@@ -27,6 +27,7 @@ if (function_exists('pll_register_string')) {
      
     /** woocommerce */
     pll_register_string('Book Now', 'Book Now', 'ALO');
+    pll_register_string('Inquiry Now', 'Inquiry Now', 'ALO');
     pll_register_string('Description', 'Description', 'ALO');
     pll_register_string('Related tours', 'Related tours', 'ALO');
     pll_register_string('Update cart', 'Update cart', 'ALO');

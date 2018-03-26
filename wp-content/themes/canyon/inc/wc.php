@@ -61,7 +61,7 @@ function woo_book_tab($tabs)
   
   // Adds the new tab
     if (is_product() && (has_term('Service', 'product_cat') || has_term('Servicio', 'product_cat')) ) {
-        $nameTab = function_exists('pll__') ? pll__('Book Now') : 'Book Now';
+        $nameTab = function_exists('pll__') ? pll__('Inquiry Now') : 'Inquiry Now';
     } else {
         $nameTab = function_exists('pll__') ? pll__('Book Now') : 'Book Now';
     }
