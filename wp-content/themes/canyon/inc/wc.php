@@ -84,7 +84,7 @@ function woo_book_tab_content()
     //woocommerce_get_template('single-product/price.php');
     if (is_product() && (has_term('Service', 'product_cat') || has_term('Servicio', 'product_cat'))) {
         echo do_shortcode('[contact-form-7 id="22" title="Contact form"]');
-            
+            echo 'ssss';
     }else{
         
         do_action('woocommerce_single_product_summary');
