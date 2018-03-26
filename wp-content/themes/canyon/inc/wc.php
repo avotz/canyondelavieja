@@ -82,7 +82,7 @@ function woo_book_tab_content()
   //echo '<h2>New Product Tab</h2>';
   //echo '<p>Here\'s your new product tab.</p>';
     //woocommerce_get_template('single-product/price.php');
-    if (is_product() && (has_term('Service', 'product_cat') || has_term('Servicio', 'product_cat'))) {
+    if (is_product() && (has_term('Services', 'product_cat') || has_term('Servicios', 'product_cat'))) {
         echo do_shortcode('[contact-form-7 id="22" title="Contact form"]');
             echo 'ssss';
     }else{
