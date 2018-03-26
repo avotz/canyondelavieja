@@ -57,6 +57,12 @@
      
     });
 
+    $('#tab-title-book').on('click', function (e) {
+       
+        $('#tab-book').find('input[name="your-subject"]').val($('.product_title').text());
+
+    });
+
  
 $(window).load(function() {
       
