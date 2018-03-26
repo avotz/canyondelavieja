@@ -83,8 +83,12 @@ function woo_book_tab_content()
   //echo '<p>Here\'s your new product tab.</p>';
     //woocommerce_get_template('single-product/price.php');
     if (is_product() && (has_term('Services', 'product_cat') || has_term('Servicios', 'product_cat'))) {
-        echo do_shortcode('[contact-form-7 id="22" title="Contact form"]');
-            echo 'ssss';
+        if (get_locale() == "es_CR") {
+            echo do_shortcode('[contact-form-7 id="164" title="Contact form ES"]');
+          
+        }else{
+            echo do_shortcode('[contact-form-7 id="22" title="Contact form"]');
+        }
     }else{
         
         do_action('woocommerce_single_product_summary');
