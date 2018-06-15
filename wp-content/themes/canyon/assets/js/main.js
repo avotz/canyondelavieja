@@ -63,6 +63,16 @@
 
     });
 
+    $('.product-type-accommodation-booking #tab-title-book').on('click', function (e) {
+        if ($('html').attr('lang') == 'en-US'){
+            window.location = 'https://www.bookingplacecostarica.com/reservations/hotel/availability.aspx?hotelId=CV0113'
+
+        }else{
+            window.location = 'https://www.bookingplacecostarica.com/reservations/hotel/availability.aspx?hotelId=CV0113&lang=es-CR'
+        }
+
+    });
+
  
 $(window).load(function() {
       
