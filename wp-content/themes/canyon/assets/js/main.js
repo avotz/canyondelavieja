@@ -73,7 +73,7 @@
 
     });
 
-    $('.product_cat-activities #tab-title-book').on('click', function (e) {
+    $('.product_cat-activities #tab-title-book, .product_cat-activities-es #tab-title-book, .product_cat-packages #tab-title-book, .product_cat-packages-es #tab-title-book').on('click', function (e) {
         if ($('html').attr('lang') == 'en-US') {
             window.location = 'https://www.bookingplacecostarica.com/reservations/serv/servicelist.aspx?Id=CV0113'
 
