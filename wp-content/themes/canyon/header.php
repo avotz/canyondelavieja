@@ -44,9 +44,9 @@
                     <a href="#"><i class="fa fa-twitter"></i></a>
                     <a href="#"><i class="fa fa-tripadvisor"></i></a> -->
                 <?php if(get_locale() == 'en_US'): ?>
-                    <a href="https://www.bookingplacecostarica.com/reservations/serv/servicelist.aspx?Id=CV0113" class="btn naranja btn-book-now">Book Now</a>
+                    <a href="https://reservations.travelclick.com/107654?languageid=1" class="btn naranja btn-book-now">Book Now</a>
                 <?php else: ?>
-                     <a href="https://www.bookingplacecostarica.com/reservations/serv/servicelist.aspx?Id=CV0113&lang=es-CR" class="btn naranja btn-book-now">Reserve Ahora</a>
+                     <a href="https://reservas.travelclick.com/107654?languageid=2" class="btn naranja btn-book-now">Reserve Ahora</a>
                  <?php endif ?>
                 </div>
                 <button class="header-btn-menu" id="btn-menu">

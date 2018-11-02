@@ -65,23 +65,23 @@
 
     $('.product-type-accommodation-booking #tab-title-book').on('click', function (e) {
         if ($('html').attr('lang') == 'en-US'){
-            window.location = 'https://www.bookingplacecostarica.com/reservations/hotel/availability.aspx?hotelId=CV0113'
+            window.location = 'https://reservations.travelclick.com/107654?languageid=1'
 
         }else{
-            window.location = 'https://www.bookingplacecostarica.com/reservations/hotel/availability.aspx?hotelId=CV0113&lang=es-CR'
+            window.location = 'https://reservas.travelclick.com/107654?languageid=2'
         }
 
     });
 
-    $('.product_cat-activities #tab-title-book, .product_cat-activities-es #tab-title-book, .product_cat-packages #tab-title-book, .product_cat-packages-es #tab-title-book').on('click', function (e) {
-        if ($('html').attr('lang') == 'en-US') {
-            window.location = 'https://www.bookingplacecostarica.com/reservations/serv/servicelist.aspx?Id=CV0113'
+    // $('.product_cat-activities #tab-title-book, .product_cat-activities-es #tab-title-book, .product_cat-packages #tab-title-book, .product_cat-packages-es #tab-title-book').on('click', function (e) {
+    //     if ($('html').attr('lang') == 'en-US') {
+    //         window.location = 'https://www.bookingplacecostarica.com/reservations/serv/servicelist.aspx?Id=CV0113'
 
-        } else {
-            window.location = 'https://www.bookingplacecostarica.com/reservations/serv/servicelist.aspx?Id=CV0113&lang=es-CR'
-        }
+    //     } else {
+    //         window.location = 'https://www.bookingplacecostarica.com/reservations/serv/servicelist.aspx?Id=CV0113&lang=es-CR'
+    //     }
 
-    });
+    // });
 
     
 
