@@ -63,12 +63,12 @@
 
     });
 
-    $('.product-type-accommodation-booking #tab-title-book').on('click', function (e) {
+    $('.product-type-accommodation-booking #tab-title-book, .product_cat-rooms-es #tab-title-book, .product_cat-rooms #tab-title-book').on('click', function (e) {
         if ($('html').attr('lang') == 'en-US'){
             window.location = 'https://reservations.travelclick.com/107654?languageid=1'
 
         }else{
-            window.location = 'https://reservas.travelclick.com/107654?languageid=2'
+            window.location = 'https://reservations.travelclick.com/107654?languageid=2'
         }
 
     });
