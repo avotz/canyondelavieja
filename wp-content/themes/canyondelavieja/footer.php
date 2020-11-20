@@ -13,7 +13,7 @@
 
 	<footer class="footer">
         <div class="wrap">
-            <div class="top">
+        <div class="top">
               <div class="footer-box-container flex-container-sb">
                 <div class="footer-box-item navigate">
                   <div class="content">
