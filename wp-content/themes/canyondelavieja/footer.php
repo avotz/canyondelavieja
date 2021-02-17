@@ -32,7 +32,7 @@
                 </div>
                 <div class="footer-box-item">
                   <div class="content">
-                   <span class="intro">(506) 2665-3161 - (506) 2665-5912</span>
+                   <span class="intro">(506) 8354-4541</span>
                    <span class="title">info@thecanyonlodge.com</span>
                     <a href="<?php echo esc_url(home_url(pll__('/lodging-reservation-and-cancellation-policites-canyon-de-la-vieja-lodge'))); ?>"><?php pll_e('Terms & conditions'); ?></a>
 
@@ -48,7 +48,7 @@
             </div>
             <div class="bottom">
                 <div class="copy">
-                  Cañón de la Vieja Guanacaste - Adventure Lodge &copy; 2018
+                  Cañón de la Vieja Guanacaste - Adventure Lodge &copy; 2018 - <?= date('Y') ?>
                 </div>
             </div>
         </div>
