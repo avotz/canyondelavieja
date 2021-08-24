@@ -44,9 +44,9 @@
                     <a href="#"><i class="fa fa-twitter"></i></a>
                     <a href="#"><i class="fa fa-tripadvisor"></i></a> -->
                 <?php if(get_locale() == 'en_US'): ?>
-                    <a href="https://reservations.travelclick.com/107654?languageid=1" class="btn naranja btn-book-now">Book Now</a>
+                    <a href="<?php echo esc_url(home_url('/activities')); ?>" class="btn naranja btn-book-now">Book Now</a>
                 <?php else: ?>
-                     <a href="https://reservations.travelclick.com/107654?languageid=2" class="btn naranja btn-book-now">Reserve Ahora</a>
+                     <a href="<?php echo esc_url(home_url('/es/actividades')); ?>" class="btn naranja btn-book-now">Reserve Ahora</a>
                  <?php endif ?>
                 </div>
                 <button class="header-btn-menu" id="btn-menu">
